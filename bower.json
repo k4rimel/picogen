@@ -1,0 +1,21 @@
+{
+  "name": "pico",
+  "version": "0.0.0",
+  "authors": [
+    "kEara <karim.elallame@gmail.com>"
+  ],
+  "description": "pico",
+  "main": "src/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "interact": "~1.2.5",
+    "jquery": "~2.1.4"
+  }
+}

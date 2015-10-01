@@ -1,0 +1,15 @@
+{
+    "tags": [{
+        "name": "summarylink",
+        "value": "<a data-to-page='' class='generated-element summary-link transparent-link'></a>"
+    }, {
+        "name": "externallink",
+        "value": "<a target='' href='' class='generated-element transparent-link'></a>"
+    }, {
+        "name": "video",
+        "value": "<video class='video generated-element' poster='' controls='controls'><source src='' type='video/mp4'></video>"
+    }, {
+        "name": "infoplus",
+        "value": "<a href='#infos-plus' class='info-plus'>&nbsp;</a>"
+    }]
+}

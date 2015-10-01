@@ -1,0 +1,73 @@
+
+$main-color : black;
+$transparent-link-border-color : red;
+$selected-element-border-color : lightgreen;
+body {
+	background-color: #eee;
+}
+#sticky-main-container {
+	display: block;
+	top: 100px;
+	left: 15px;
+	width: 250px;
+	height: 250px;
+	background-color: #aaa;
+	border-radius: 5px;
+}
+#add-button {
+	cursor:pointer;
+	color:#fff;
+	text-align: center;
+}
+#menu-container {
+	position: relative;
+}
+#menu {
+	position: absolute;
+	display: block;
+	top: 0px;
+	width: 250px;
+	height: 55px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.menu-item {
+	cursor: pointer;
+	color :#fff;
+}
+#menu-container.hidden {
+	display: none;
+}
+.generated-element {
+	
+}
+.transparent-link {
+	border: 2px solid $transparent-link-border-color;
+}
+#code-container {
+	position: absolute;
+	display: block;
+	top: 75px;
+	width: 250px;
+    height: 700px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+#code-container.hidden {
+	display: none;
+}
+#code-container #html {
+	height: 125px;
+	width: 100%;
+}
+#code-container #css {
+	height: 200px;
+	width: 100%;
+}
+#code-container #textarea {
+	height: 100px;
+	width: 100%;
+}
+.generated-element.selected-element {
+	border-color: $selected-element-border-color;
+}
